@@ -471,20 +471,27 @@
         </div>
         <div class="footer-input">
           <p class="footer-input-subtitle">Subscribe</p>
-          <label for="user-email" class="footer-label">
-            <input type="email" name="user-email" class="footer-input-mail" />
-          </label>
-          <button type="submit" class="footer-send-btn">
-            Subscribe<span>
-              <svg class="footer-email-icon">
-                <use href="./images/icons.svg#icon-Frame"></use>
-              </svg>
-            </span>
-          </button>
+          <form class="footer-form-email">
+            <label for="user-email" class="footer-label">
+              <input
+                type="email"
+                name="user-email"
+                class="footer-input-mail"
+                placeholder="Email"
+              />
+            </label>
+            <button type="submit" class="footer-send-btn">
+              Subscribe<span>
+                <svg class="footer-email-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-Frame"></use>
+                </svg>
+              </span>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-btn modal-btn-close">
           <svg class="modal-btn-icon" width="8" height="8">

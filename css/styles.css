@@ -667,8 +667,8 @@ letter-spacing: 0.02em;
 }
 
 .footer-icon {
-  /* margin: 0 auto; */
-  padding: 100px auto;
+  margin: 0 auto;
+  padding: 100px auto;  
 }
 
 .icon-footer-link::before,
@@ -703,14 +703,70 @@ letter-spacing: 0.02em;
 
 .footer-input {
 }
-.footer-input-subtitle {
+
+.footer-input-mail {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff; 
+  background-color: transparent;
+  font-size: 12px; 
+  line-height: 1.5;
+  letter-spacing: 0.04em; 
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px; 
+  color: #ffffff; 
 }
+
+.footer-input-mail::placeholder {
+  color #ffffff;
+}
+
+.footer-input-subtitle {
+  margin-bottom: 16px; 
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  }
+
+  .footer-form-email {
+    display: flex;
+    gap: 24px;
+  }
+
+  .footer-label {    
+  }
+
 .footer-send-btn {
+min-width: 165px; 
+margin: 0 auto;
+display: inline-flex;
+height: 40px;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+border-radius: 4px;
+background-color: #4D5AE5;
+border: none;
+color: #FFF;
+text-align: center;
+font-family: "Roboto", sans-serif ;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
 }
 
 .footer-email-icon {
   width: 24px;
   height: 24px;
+  margin-left: 16px;
 }
 
 /* ============ Modal ============== */
@@ -965,7 +1021,7 @@ letter-spacing: 0.04em;
 }
 
 .modal-feedback-box {
-margin-bottom: 24px; 
+margin-bottom: 24px;
 font-family: Roboto;
 font-size: 12px;
 font-style: normal;
