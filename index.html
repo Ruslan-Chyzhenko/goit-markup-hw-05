@@ -472,14 +472,14 @@
         <div class="footer-input">
           <p class="footer-input-subtitle">Subscribe</p>
           <form class="footer-form-email">
-            <label for="user-email" class="footer-label">
-              <input
-                type="email"
-                name="user-email"
-                class="footer-input-mail"
-                placeholder="E-mail"
-              />
-            </label>
+            <label for="subscribe-email" class="footer-label"></label>
+            <input
+              type="email"
+              name="user-email"
+              class="footer-input-mail"
+              placeholder="E-mail"
+              id="subscribe-email"
+            />
             <button type="submit" class="footer-send-btn">
               Subscribe
               <svg class="footer-email-icon" width="24" height="24">
@@ -490,7 +490,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-btn modal-btn-close">
           <svg class="modal-btn-icon" width="8" height="8">
@@ -571,8 +571,9 @@
               ><span class="checkbox-icon"
                 ><svg class="modal-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a href="feedback-link" class="policy-link">Privacy Policy</a>
             </label>
           </div>
