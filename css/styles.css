@@ -1058,6 +1058,7 @@ stroke: rgba(46, 47, 66, 0.40);
   }
 
 .checkbox-icon {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   flex-shrink: 0;
@@ -1065,7 +1066,6 @@ stroke: rgba(46, 47, 66, 0.40);
   stroke: rgba(46, 47, 66, 0.40);
   border: 1px solid rgba(46, 47, 66, 0.4); 
   border-radius: 2px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent; 
